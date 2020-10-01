@@ -27,7 +27,7 @@ If we have given a single array, we very much to consider it similar to weight a
 
 The only different in b/w two above knapsack is that in Unbounded there is unlimited supply of element whereas in 0/1, we can include each element once.
 
-Each Problem Solve Using Three Approach:
+Each Problem Solve Using Three Approach:</br>
 **1.TOP-DOWN:**
             Filling a table from including 0 element to all element and finding the optimal result according to question in per step. Y-axis represent arrays element. 0 y-axis 
             mean no element included and last index on Y-axis mean all element included. X-axis of table mean contraint ranging from 0 to max.
@@ -47,9 +47,9 @@ Each Problem Solve Using Three Approach:
           Integer giving total element included result and the result itself.
           
           
-**How To Recognise a Problem is Knapsack Based aor not:**
-            If these condition apply:
-              1.An array of element is given.
-              2.If given to find optimal result.
-              3.Output is int or array type.
+**How To Recognise a Problem is Knapsack Based aor not:**</br>
+            If these condition apply:</br>
+              1.An array of element is given.</br>
+              2.If given to find optimal result.</br>
+              3.Output is int or array type.</br>
 
