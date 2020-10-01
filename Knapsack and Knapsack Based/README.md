@@ -48,8 +48,8 @@ Each Problem Solve Using Three Approach:
           
           
 **How To Recognise a Problem is Knapsack Based aor not:**
-           If these condition apply:
-           1.An array of element is given.
-           2.If given to find optimal result.
-           3.Output is int or array type.
+            If these condition apply:
+             1.An array of element is given.
+             2.If given to find optimal result.
+             3.Output is int or array type.
 
