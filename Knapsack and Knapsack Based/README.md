@@ -31,16 +31,16 @@ Each Problem Solve Using Three Approach:
 **1.TOP-DOWN:**
             Filling a table from including 0 element to all element and finding the optimal result according to question in per step. Y-axis represent arrays element. 0 y-axis 
             mean no element included and last index on Y-axis mean all element included. X-axis of table mean contraint ranging from 0 to max.
-            Since we have to fill an entire 2-d table and hence *time complexity is n**2.*
+            Since we have to fill an entire 2-d table and hence **time complexity is n^2.**
             
 **2.Recursion+Memonisation:**
             By continous recursive calling minimising the problem to smallest possible problem and solving the smallest problem and passing their result to larger problem so 
             that they can be solved. In this with each recursive call, we store the result in a table so that when the function is called again with same attribute, we can fetch
             the value from table and henceforth minimising the work load of program and therefor minimising time complexity.
-            Without memonization, its *time complexity is 2^n but with menomisation, the time complexity reduce to n^2.
+            Without memonization, its time complexity is 2^n but with menomisation, the **time complexity reduce to n^2.**
             
 **3.Recursion(only):**
-            Same mentioned above.*Time complexity is 2*n* that mean for every n element we try each possibility of whether to take it or not. Hence 2*2*2...n times i.e 2^n.
+            Same mentioned above.**Time complexity is 2^n** that mean for every n element we try each possibility of whether to take it or not. Hence 2*2*2...n times i.e 2^n.
         
             
 **OUTPUT:**
